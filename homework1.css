@@ -19,23 +19,23 @@ p
 {
     width: 50%;
     text-align: center; 
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: none;
-    margin-left: none; 
+    margin-top: none;
+    margin-bottom: none;
+    margin-right: auto;
+    margin-left: auto; 
 
 }
 
 .margin-x
 {
-    top: 16px;
-    bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .margin-y
 {
-    left: 16px;
-    right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .padding
@@ -45,14 +45,14 @@ p
 
 .padding-x
 {
-    top: 16px;
-    bottom: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .padding-y
 {
-    left: 16px;
-    right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 } 
 
 .box
@@ -84,6 +84,7 @@ p
 .w-90
 {
     border: 1px solid firebrick;
+    width: 90%;
 }
 
 .d-block
