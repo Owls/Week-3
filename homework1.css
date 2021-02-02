@@ -1,0 +1,127 @@
+
+p
+{
+    border: 2px solid green;  
+}
+
+.margin
+{
+    margin: 16px;  
+}
+
+.margin-auto
+{
+    width: 50%;
+    text-align: center; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: none;
+    margin-left: none; 
+
+}
+
+.margin-x
+{
+    top: 16px;
+    bottom: 16px;
+}
+
+.margin-y
+{
+    left: 16px;
+    right: 16px;
+}
+
+.padding
+{
+    padding: 16px;
+}
+
+.padding-x
+{
+    top: 16px;
+    bottom: 16px;
+}
+
+.padding-y
+{
+    left: 16px;
+    right: 16px;
+} 
+
+.box
+{
+    height: 100px;
+    width: 40%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #333;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.w-90
+{
+    border: 1px solid firebrick;
+}
+
+.d-block
+{
+    display: block;
+}
+
+.d-inline
+{
+    display: inline;
+}
+
+.d-inline-block
+{
+    display: inline-block;
+}
+
+.relative
+{
+    background-color: #333;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: none;
+    left: 100px;
+}
+
+.absolute
+{
+    background-color: #333;
+    position: absolute; 
+    height: 100px; 
+    width: 100px;
+    top: 150px;
+    left: 150px; 
+}
+
+.fixed
+{
+    background-color: #1A5276;
+    height: 50px; 
+    width: 100%;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
