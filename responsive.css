@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 40%;
+    height: 25vh;
+    margin: 5%;
+    background: #333333;
+    color: white;
+}
+
+.div-1
+{
+    float: left;
+}
+
+.div-2
+{
+    float: right;
+}
+
+.clr
+{
+    float: left;
+    float: right;
+}
+
+.rem
+{
+    font-size: 1.2rem;
+}
+
+.em
+{
+    font-size: 1.2em;
+}
+
+.remAndEm
+{
+    font-size: 20px;
+}
+
+.border-red
+{
+    border: 1px solid firebrick;
+}
+
+.border-blue
+{
+    border: 1px solid steelblue;
+}
+
+.vh-50
+{
+    height: 50%;
+}
+
+.vh-100
+{
+    height: 100vh;
+}
+
+div p
+{
+    color: steelblue;
+}
+
+div section p
+{
+    color: green;
+}
+
+input[type="email"]
+{
+    border: 1px solid firebrick;
+}
+
+/* May be Problematic */ 
+@media (max-width: 500px)
+{
+    .div-1 .div-2
+    {
+        float: none;
+    }
+    :root 
+    {
+        font-size: 20px;
+    }
+}
